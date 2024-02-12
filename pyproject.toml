@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "polar-bank"
+version = "0.1.0"
+description = "An application to pull bank details into an excel sheet for further exploration."
+authors = ["David Vigh <davidvigh@davidvigh.com>"]
+license = "Gpl 3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = "^0.20.7"
+plaid-python = "^18.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
